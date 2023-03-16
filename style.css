@@ -1,0 +1,85 @@
+
+body {
+    background-image: url(img/SBX20200120-SustainabilityNewsBrief-Feature-1440x700.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+.landing-main-content {
+    margin-top: 150px;
+}
+
+.landing-menu-wrapper {
+    background-color: rgba(255, 255, 255, 0.76);
+    height: auto;
+    width: 25%;
+    margin-top: -70px;
+    padding: 40px;
+    border-radius: 20px;
+    padding-bottom: 120px;
+    padding-top: 70px;
+    
+}
+
+.landing-menu-button:hover {
+    background-color: rgb(0, 151, 0);
+}
+
+
+.landing-menu-button  {
+    height: auto;
+    width: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 7px;
+    cursor: pointer;
+    
+}
+
+.landing-menu-button span {
+    font-size: 30px;
+}
+
+p {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 720px) {
+
+
+    {
+    box-sizing: border-box;
+    }
+    .landing-main-content {
+        padding: 20px;
+    }
+
+    .landing-menu-wrapper {
+        width: 100%;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    {
+    box-sizing: border-box;
+    }
+    .landing-main-content {
+       padding: 20px;
+        
+    }
+
+    .landing-menu-wrapper {
+        width: 80%;
+        
+    }
+    
+
+}
